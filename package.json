@@ -1,6 +1,6 @@
 {
-  "name": "ibc-app-solidity-template",
-  "version": "1.0.0",
+  "name": "polymer-template-gizr",
+  "version": "1.1.4",
   "description": "Template project to start building IBC enabled Solidity contracts, with Hardhat and Foundry support",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/open-ibc/ibc-app-solidity-template.git"
+    "url": "git+https://github.com/gizr9494/polymer-template.git"
   },
   "keywords": [
     "IBC",
-    "Solidity"
+    "Solidity",
+    "teatestnet",
+    "teaprotocol",
+    "tea-community-id",
+    "tea-challenge",
+    "alchemy",
+    "tea-user",
+    "tea-community-user"
   ],
   "author": "Polymer Labs",
   "license": "MIT",
@@ -29,6 +36,10 @@
     "@openzeppelin/contracts": "^4.7.6",
     "axios": "^1.6.7",
     "dotenv": "^16.4.1",
-    "hardhat-verify": "^1.0.0"
+    "hardhat-verify": "^1.0.0",
+    "polymer-template-gizr": "^1.0.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
